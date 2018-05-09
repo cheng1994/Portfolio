@@ -1,0 +1,22 @@
+.navigation {
+  padding: 1rem;
+  background-color: #243342;
+  border-bottom: 0.5rem solid #6DBCDB;
+  color: whitesmoke;
+}
+
+.navigation__nav {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.navigation__item {
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+}
+
+.navigation__item--title {
+  flex: 3 2 auto;
+  font-weight: 600;
+}
