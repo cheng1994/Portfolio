@@ -134,7 +134,7 @@ class About extends Component {
       inView
     } = this.state;
     return (
-      <div className="about" id="about" ref={this.about}>
+      <section className="about" id="about" ref={this.about}>
         {
           inView &&
           <div className="about__content">
@@ -174,7 +174,7 @@ class About extends Component {
               </div>
             </div>
             <div className="about__details">
-              <div>
+              <div className="about__text">
                 I'm a Fronted Developer for Gradelink in Foothill Ranch, CA.<br/>
                 I can bring full projects to life from the entire stack but my passion lies in building intuitive and dynamic interfaces for users to enjoy.
               </div>
@@ -194,7 +194,7 @@ class About extends Component {
             </div>
           </div>
         }
-      </div>
+      </section>
     )
   }
 }

@@ -1,5 +1,5 @@
 .about {
-  height: 100%;
+  min-height: 100%;
   padding: 5rem;
   -webkit-animation: slideIn 0.5s forwards;
   -moz-animation: slideIn 0.5s forwards;
@@ -20,11 +20,11 @@
 
 .about__icons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   -ms-align-items: center;
   align-items: center;
   margin: 2rem auto;
-  max-width: 100rem;
 }
 
 .about__icons > * {
@@ -160,6 +160,10 @@
   text-align: right;
   color: #293643;
   padding-right: 1rem;
+}
+
+.about__text {
+  font-size: 1.8rem;
 }
 
 

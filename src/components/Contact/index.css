@@ -1,0 +1,16 @@
+.contact {
+  display: block;
+  min-height: 100%;
+  padding: 4rem;
+  background-color: #2C3E50;
+  color: whitesmoke;
+}
+
+.contact__content {
+  max-width: 50rem;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-animation: slideIn 0.5s forwards;
+  -moz-animation: slideIn 0.5s forwards;
+  animation: slideIn 0.5s forwards;
+}
