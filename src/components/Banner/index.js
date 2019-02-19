@@ -16,9 +16,9 @@ const Banner = () => (
         Frontend Developer with a passion for building engaging UI
       </div>
       <div className="banner__social">
-        <i className="banner__icons fab fa-github fa-3x"></i>
-        <i className="banner__icons fab fa-linkedin fa-3x"></i>
-        <i className="banner__icons fab fa-instagram fa-3x"></i>
+        <a href="https://github.com/cheng1994" target="_blank" class="banner__link"><i className="banner__icons fab fa-github fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/gordon-chen-20461762/" target="_blank" class="banner__link"><i className="banner__icons fab fa-linkedin fa-3x"></i></a>
+        <a href="https://www.instagram.com/gordawn94/" target="_blank" class="banner__link"><i className="banner__icons fab fa-instagram fa-3x"></i></a>
       </div>
       <button className="banner__button" onClick={scrollTo}>My Work <i className="fas fa-arrow-right"></i></button>
     </div>

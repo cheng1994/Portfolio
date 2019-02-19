@@ -21,6 +21,10 @@
   justify-content: center;
 }
 
+.banner__link {
+  color: black;
+}
+
 .banner__about {
   display: flex;
   flex-direction: column;

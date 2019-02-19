@@ -45,7 +45,21 @@ class Portfolio extends Component {
           inView &&
           <div className="portfolio__content">
             <h1 className="portfolio__title">My Work</h1>
-            <div>
+            <div class="portfolio__items">
+              {/* Under Construction
+              <i class="fas fa-code"></i> */}
+              <div class="portfolio__item portfolio__item--gradelink">
+                <div class="portfolio__description">
+                  <h1>Gradelink</h1>
+                  <div>Mobile App and SPAs created for usage within Gradelink student information system</div>
+                </div>
+              </div>
+              <div class="portfolio__item portfolio__item--entrepe">
+                <div class="portfolio__description">
+                  <h1>Entrepe Valuation</h1>
+                  <div>Valuation tool that allows users to view a business valuation of their business based on their Quickbooks data.</div>
+                </div>
+              </div>
             </div>
           </div>
         }
