@@ -39,7 +39,7 @@
 .portfolio__item {
   width: 50rem;
   height: 40rem;
-  border-radius: 0.4rem;
+  border-radius: 0.5rem;
   /* padding: 1rem; */
   position: relative;
   box-sizing: border-box;

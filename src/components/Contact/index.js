@@ -46,6 +46,9 @@ class Contact extends Component {
           <div className="contact__content">
             <h1>Contact</h1>
             <div>
+              <a href={process.env.PUBLIC_URL + '/resume.pdf'} download>
+                Resume
+              </a>
               <div>
                 gordon.chen94@gmail.com
               </div>

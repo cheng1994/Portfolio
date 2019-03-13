@@ -8,93 +8,100 @@ const INITIAL_STATE = {
 const skills = [
   {
     name: 'Angular',
-    percentage: 90,
+    percentage: 95,
     style: {
-      width: 'calc(90% - 8rem)'
+      width: 'calc(95% - 10rem)'
+    }
+  },
+  {
+    name: 'Ionic',
+    percentage: 95,
+    style: {
+      width: 'calc(95% - 10rem)'
     }
   },
   {
     name: 'React',
     percentage: 70,
     style: {
-      width: 'calc(70% - 8rem)'
+      width: 'calc(70% - 10rem)'
     }
   },
   {
     name: 'CSS',
-    percentage: 85,
+    percentage: 95,
     style: {
-      width: 'calc(85% - 8rem)'
+      width: 'calc(95% - 10rem)'
     }
   },
   {
     name: 'Sass',
     percentage: 65,
     style: {
-      width: 'calc(65% - 8rem)'
+      width: 'calc(65% - 10rem)'
     }
   },
   {
     name: 'Javascript',
-    percentage: 80,
+    percentage: 85,
     style: {
-      width: 'calc(80% - 8rem)'
+      width: 'calc(85% - 10rem)'
     }
   },
   {
     name: 'Meteor',
     percentage: 60,
     style: {
-      width: 'calc(60% - 8rem)'
+      width: 'calc(60% - 10rem)'
     }
   },
   {
     name: 'HTML',
-    percentage: 90,
+    percentage: 95,
     style: {
-      width: 'calc(90% - 8rem)'
+      width: 'calc(95% - 10rem)'
     }
   },
   {
     name: 'Web API',
     percentage: 75,
     style: {
-      width: 'calc(75% - 8rem)'
+      width: 'calc(75% - 10rem)'
     }
   },
   {
     name: 'ASP.NET',
     percentage: 70,
     style: {
-      width: 'calc(70% - 8rem)'
+      width: 'calc(70% - 10rem)'
     }
   },
   {
     name: 'C#',
-    percentage: 65,
+    percentage: 75,
     style: {
-      width: 'calc(65% - 8rem)'
+      width: 'calc(75% - 10rem)'
     }
   },
   {
     name: 'MongoDB',
     percentage: 40,
     style: {
-      width: 'calc(40% - 8rem)'
+      width: 'calc(40% - 10rem)'
     }
   },
   {
     name: 'Firebase',
     percentage: 40,
     style: {
-      width: 'calc(40% - 8rem)'
+      width: 'calc(40% - 10rem)'
     }
   },
   {
     name: 'XML/XSLT',
     percentage: 60,
     style: {
-      width: 'calc(60% - 8rem)'
+      width: 'calc(60% - 10rem)'
     }
   }
 ]

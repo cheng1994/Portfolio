@@ -15,3 +15,18 @@
   -moz-animation: slideIn 0.5s forwards;
   animation: slideIn 0.5s forwards;
 }
+
+.contact__content h1 {
+  margin-bottom: 5px;
+  border-bottom: 1.5px solid whitesmoke;
+  
+}
+
+.contact__content a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.contact__content a:hover {
+  color: #7AD2F5
+}
