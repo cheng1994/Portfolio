@@ -81,6 +81,16 @@
   margin-bottom: 1rem;
 }
 
+.portfolio__icons {
+  margin: 0.5rem 1rem;
+  cursor: pointer;
+  color: #243342
+}
+
+.portfolio__icons:hover {
+  color: #6DBCDB;
+}
+
 @-webkit-keyframes slideIn-right {
   0% {
     transform: translateX(150vw);

@@ -52,12 +52,20 @@ class Portfolio extends Component {
                 <div class="portfolio__description">
                   <h1>Gradelink</h1>
                   <div>Mobile App and SPAs created for usage within Gradelink student information system</div>
+                  <div>
+                    <a href="https://play.google.com/store/apps/details?id=com.gradelink.parent&hl=en" target="_blank" className="portfolio__link"><i className="portfolio__icons fab fa-android fa-3x"></i></a>
+                    <a href="https://itunes.apple.com/us/app/gradelink-student-parent/id1091381333?mt=8" target="_blank" className="portfolio__link"><i className="portfolio__icons fab fa-apple fa-3x"></i></a>
+                  </div>
                 </div>
               </div>
               <div class="portfolio__item portfolio__item--entrepe">
                 <div class="portfolio__description">
                   <h1>Entrepe Valuation</h1>
                   <div>Valuation tool that allows users to view a business valuation of their business based on their Quickbooks data.</div>
+                  <div>
+                    <a href="https://play.google.com/store/apps/details?id=entrepe.valuation" target="_blank" className="portfolio__link"><i className="portfolio__icons fab fa-android fa-3x"></i></a>
+                    <a href="https://itunes.apple.com/app/id1416399180?mt=8&ign-mpt=uo%3D4" target="_blank" className="portfolio__link"><i className="portfolio__icons fab fa-apple fa-3x"></i></a>
+                  </div>
                 </div>
               </div>
             </div>

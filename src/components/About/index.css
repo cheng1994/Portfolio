@@ -166,6 +166,30 @@
   font-size: 1.8rem;
 }
 
+@media (max-width: 760px) {
+  .about__details {
+    grid-template-columns: 1fr
+  }
+
+  .about__icons > * {
+    margin: 0 2rem;
+  }
+
+  .about {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .hex-wrap {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .fa-5x {
+    font-size: 3em;
+  }
+}
 
 
 @-webkit-keyframes slideIn {
