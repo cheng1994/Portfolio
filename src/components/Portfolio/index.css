@@ -91,6 +91,16 @@
   color: #6DBCDB;
 }
 
+@media (max-width: 520px) {
+  .portfolio__items {
+    flex-direction: column;
+  }
+
+  .portfolio__item {
+    width: 100%;
+  }
+}
+
 @-webkit-keyframes slideIn-right {
   0% {
     transform: translateX(150vw);

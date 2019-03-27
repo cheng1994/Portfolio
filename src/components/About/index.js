@@ -127,7 +127,6 @@ class About extends Component {
     var _window = window;
     var heightDiff = parseInt(distance);
     var scrollPos = _window.scrollY;
-    console.log(scrollPos);
     if (scrollPos > heightDiff - 500) {
         // here this means user has scrolled past your header,
         // you may rerender by setting State or do whatever
@@ -182,7 +181,7 @@ class About extends Component {
             </div>
             <div className="about__details">
               <div className="about__text">
-                I'm a Fronted Developer for Gradelink in Foothill Ranch, CA.<br/>
+                I'm a Frontend Developer for Gradelink in Foothill Ranch, CA.<br/>
                 I can bring full projects to life from the entire stack but my passion lies in building intuitive and dynamic interfaces for users to enjoy.
               </div>
               <div>

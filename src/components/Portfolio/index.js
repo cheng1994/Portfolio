@@ -25,7 +25,6 @@ class Portfolio extends Component {
     var _window = window;
     var heightDiff = parseInt(distance);
     var scrollPos = _window.scrollY;
-    console.log(scrollPos);
     if (scrollPos > heightDiff - 500) {
         // here this means user has scrolled past your header,
         // you may rerender by setting State or do whatever
