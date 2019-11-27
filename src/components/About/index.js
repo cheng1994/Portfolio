@@ -181,7 +181,7 @@ class About extends Component {
             </div>
             <div className="about__details">
               <div className="about__text">
-                I'm a Frontend Developer for Gradelink in Foothill Ranch, CA.<br/>
+                I'm a Frontend Developer for Backbase.<br/>
                 I can bring full projects to life from the entire stack but my passion lies in building intuitive and dynamic interfaces for users to enjoy.
               </div>
               <div>
